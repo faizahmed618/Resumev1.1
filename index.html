@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faiz Ahmed Sultan — Data Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">FAS</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">☰</button>
+        </div>
+    </nav>
+
+    <section id="hero">
+        <div class="hero-content">
+            <p class="hero-greeting">Hi, I'm</p>
+            <h1 class="hero-name">Faiz Ahmed Sultan</h1>
+            <h2 class="hero-title">Data Engineer</h2>
+            <p class="hero-summary">4+ years building automated, data-driven pipelines across payments and renewable energy sectors. Cloud-native ETL, workflow orchestration, and ledger systems.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn primary">Get in Touch</a>
+                <a href="#projects" class="btn secondary">View Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>Data Engineer with 4+ years of experience building automated, data-driven pipelines across the payments and renewable energy sectors. Proficient in cloud-native ETL design, workflow orchestration, ledger and reconciliation systems, and performance verification/validation of renewable plant assets.</p>
+                <p>I completed my MBA in Finance from IBA Karachi to complement deep technical expertise with financial and strategic decision-making. My Bachelor's in Electrical Engineering from NED University provides a strong analytical foundation.</p>
+                <div class="about-highlights">
+                    <div class="highlight-card">
+                        <span class="highlight-number">4+</span>
+                        <span class="highlight-label">Years Experience</span>
+                    </div>
+                    <div class="highlight-card">
+                        <span class="highlight-number">75%</span>
+                        <span class="highlight-label">Pipeline Optimization</span>
+                    </div>
+                    <div class="highlight-card">
+                        <span class="highlight-number">AWS</span>
+                        <span class="highlight-label">Certified</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Data Engineer</h3>
+                            <span class="timeline-date">Jan 2026 – Present</span>
+                        </div>
+                        <h4 class="timeline-company">Contour Software (Division: Constellation Payments, New York) · Remote</h4>
+                        <ul>
+                            <li>Designed and developed ETL pipelines feeding a Redshift Data Warehouse using SQS, Lambda, S3, and Glue for high-volume transactions.</li>
+                            <li>Built and maintained a ledger system for transactions processed through the payment gateway, including balance tracking and reconciliation.</li>
+                            <li>Architected parallel execution strategies within Apache Airflow DAGs, reducing settlement workflow runtime from 6 hours to 1.5 hours (75% improvement).</li>
+                            <li>Orchestrated Apache Airflow DAGs to automate merchant and partner settlement and payout workflows.</li>
+                            <li>Extended GraphQL mutations to support new transaction fields, improving traceability of settlement data across services.</li>
+                            <li>Implemented monitoring and alerting on key pipeline and transaction metrics.</li>
+                            <li>Collaborated cross-functionally to optimize cost and fee processing logic within the payments pipeline.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Data Engineer</h3>
+                            <span class="timeline-date">Jan 2023 – Jan 2026</span>
+                        </div>
+                        <h4 class="timeline-company">REON Energy Limited</h4>
+                        <ul>
+                            <li>Developed ETL pipelines using AWS services (SQS, API Gateway, Lambda, Elasticsearch, DynamoDB).</li>
+                            <li>Optimized Digital Twin processing architecture through multiprocessing, reducing execution time from 18 hours to 6 hours (67% improvement).</li>
+                            <li>Applied relational database concepts, SQL optimization, and schema design with large-scale operational data.</li>
+                            <li>Designed ML model pipelines utilizing S3, EC2, and Elasticsearch.</li>
+                            <li>Created solar panel and battery sizing calculator integrated with local machines using MQTT, Lambda, and API Gateway.</li>
+                            <li>Developed automated email system for real-time site condition updates.</li>
+                            <li>Built a downtime forecasting algorithm (40% accuracy) using historical data and ML models.</li>
+                            <li>Implemented digital twin method for real-time analysis of physical sites.</li>
+                            <li>Developed battery performance algorithms (SOH, autonomy, SOC).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">⚡</div>
+                    <h3>Digital Twin Platform for Renewable Energy Assets</h3>
+                    <p>Built a virtual representation of solar and battery sites for real-time operational analysis. Implemented multiprocessing to process multiple sites concurrently, reducing simulation runtime from 18 hours to 6 hours.</p>
+                    <div class="project-tags">
+                        <span>AWS</span>
+                        <span>Python</span>
+                        <span>Multiprocessing</span>
+                        <span>IoT</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">💳</div>
+                    <h3>Payment Settlement Optimization Framework</h3>
+                    <p>Redesigned Airflow DAG execution using parallel processing patterns. Reduced processing time from 6 hours to 1.5 hours. Improved settlement SLA compliance and operational efficiency.</p>
+                    <div class="project-tags">
+                        <span>Airflow</span>
+                        <span>Redshift</span>
+                        <span>Lambda</span>
+                        <span>GraphQL</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">🔋</div>
+                    <h3>Battery Analytics & Asset Health Monitoring</h3>
+                    <p>Developed algorithms to calculate Battery SOC, SOH, autonomy, degradation trends, and efficiency. Built automated health monitoring workflows for utility-scale energy storage systems.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>ML</span>
+                        <span>Elasticsearch</span>
+                        <span>S3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-tags">
+                        <span>Python</span>
+                        <span>JavaScript</span>
+                        <span>SQL</span>
+                        <span>HTML/CSS</span>
+                        <span>C++</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks</h3>
+                    <div class="skill-tags">
+                        <span>Django</span>
+                        <span>Flask</span>
+                        <span>FastAPI</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Cloud & Orchestration</h3>
+                    <div class="skill-tags">
+                        <span>AWS Lambda</span>
+                        <span>API Gateway</span>
+                        <span>S3</span>
+                        <span>Glue ETL</span>
+                        <span>Kinesis</span>
+                        <span>SQS</span>
+                        <span>EC2</span>
+                        <span>Cognito</span>
+                        <span>LEX</span>
+                        <span>Apache Airflow</span>
+                        <span>IoT Core (MQTT)</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <div class="skill-tags">
+                        <span>DynamoDB</span>
+                        <span>MongoDB</span>
+                        <span>MySQL</span>
+                        <span>SQL Server</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Data Warehouse</h3>
+                    <div class="skill-tags">
+                        <span>Redshift</span>
+                        <span>Elasticsearch</span>
+                        <span>OpenSearch</span>
+                        <span>ClickHouse</span>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="section-title" style="margin-top:3rem;">Certifications</h2>
+            <div class="certifications">
+                <div class="cert-item">🏅 AWS Certified Cloud Practitioner</div>
+                <div class="cert-item">🏅 AWS re/Start Graduate Badge</div>
+                <div class="cert-item">🏅 Udemy: AWS Associate Data Engineer</div>
+                <div class="cert-item">🏅 Coursera: Python A-Z, Machine Learning A-Z, Django</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <div class="edu-card">
+                    <h3>MBA in Finance</h3>
+                    <h4>Institute of Business Administration (IBA), Karachi</h4>
+                    <span class="edu-date">2022 – 2026</span>
+                    <p>CGPA: 3.44 / 4.0</p>
+                </div>
+                <div class="edu-card">
+                    <h3>Bachelor's in Electrical Engineering</h3>
+                    <h4>NED University of Engineering and Technology</h4>
+                    <span class="edu-date">2016 – 2020</span>
+                    <p>CGPA: 3.94 / 4.0</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="contact-intro">Interested in working together? Feel free to reach out.</p>
+            <div class="contact-links">
+                <a href="mailto:faizahmed618@gmail.com" class="contact-card">
+                    <span class="contact-icon">✉️</span>
+                    <span>faizahmed618@gmail.com</span>
+                </a>
+                <a href="tel:+923312076887" class="contact-card">
+                    <span class="contact-icon">📞</span>
+                    <span>+92-331-2076887</span>
+                </a>
+                <a href="https://linkedin.com/in/faiz-ahmed-b02622282" target="_blank" class="contact-card">
+                    <span class="contact-icon">💼</span>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/faizahmed618" target="_blank" class="contact-card">
+                    <span class="contact-icon">🐙</span>
+                    <span>GitHub</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Faiz Ahmed Sultan. Built with HTML, CSS & JS.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
